@@ -1,0 +1,191 @@
+PODS:
+  - ATBarSDK (1.4.1)
+  - barcode_finder (0.0.1):
+    - ATBarSDK (~> 1.4.1)
+    - Flutter
+    - ZXingObjC (~> 3.6.4)
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - edge_detection (1.1.3):
+    - Flutter
+    - WeScan
+  - Flutter (1.0.0)
+  - flutter_mrz_scanner (0.0.1):
+    - Flutter
+    - SwiftyTesseract
+  - google_mlkit_commons (0.4.0):
+    - Flutter
+    - MLKitVision
+  - google_mlkit_text_recognition (0.8.1):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/TextRecognition (~> 4.0.0)
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/MLKitCore (4.0.0):
+    - MLKitCommon (~> 9.0.0)
+  - GoogleMLKit/TextRecognition (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 2.0.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/UserDefaults (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (2.3.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta4)
+  - MLKitCommon (9.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - MLKitTextRecognition (2.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitTextRecognitionCommon (= 1.0.0)
+    - MLKitVision (~> 5.0)
+  - MLKitTextRecognitionCommon (1.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - MLKitVision (5.0.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+    - MLImage (= 1.0.0-beta4)
+    - MLKitCommon (~> 9.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - nfc_manager (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - PromisesObjC (2.4.0)
+  - SwiftyTesseract (3.1.3)
+  - WeScan (3.0.0)
+  - ZXingObjC (3.6.9):
+    - ZXingObjC/All (= 3.6.9)
+  - ZXingObjC/All (3.6.9)
+
+DEPENDENCIES:
+  - barcode_finder (from `.symlinks/plugins/barcode_finder/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - edge_detection (from `.symlinks/plugins/edge_detection/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_mrz_scanner (from `.symlinks/plugins/flutter_mrz_scanner/ios`)
+  - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
+  - google_mlkit_text_recognition (from `.symlinks/plugins/google_mlkit_text_recognition/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - nfc_manager (from `.symlinks/plugins/nfc_manager/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - WeScan (from `.symlinks/plugins/edge_detection/ios/WeScan-3.0.0`)
+
+SPEC REPOS:
+  trunk:
+    - ATBarSDK
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitCommon
+    - MLKitTextRecognition
+    - MLKitTextRecognitionCommon
+    - MLKitVision
+    - nanopb
+    - PromisesObjC
+    - SwiftyTesseract
+    - ZXingObjC
+
+EXTERNAL SOURCES:
+  barcode_finder:
+    :path: ".symlinks/plugins/barcode_finder/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  edge_detection:
+    :path: ".symlinks/plugins/edge_detection/ios"
+  Flutter:
+    :path: Flutter
+  flutter_mrz_scanner:
+    :path: ".symlinks/plugins/flutter_mrz_scanner/ios"
+  google_mlkit_commons:
+    :path: ".symlinks/plugins/google_mlkit_commons/ios"
+  google_mlkit_text_recognition:
+    :path: ".symlinks/plugins/google_mlkit_text_recognition/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  nfc_manager:
+    :path: ".symlinks/plugins/nfc_manager/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  WeScan:
+    :path: ".symlinks/plugins/edge_detection/ios/WeScan-3.0.0"
+
+SPEC CHECKSUMS:
+  ATBarSDK: b6aa2b6a120ac7d6b1ff041bd60b9edde6bb17c4
+  barcode_finder: 9bfb4e551dca1b3035ed8911fd0c3fbeddf5c7be
+  camera_avfoundation: dd002b0330f4981e1bbcb46ae9b62829237459a4
+  edge_detection: ca7942eecdfb4acb1de11cb9300c42242acb5679
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_mrz_scanner: 1c2bb701201cff2458d76a4544f3ec3c5e7de4c3
+  google_mlkit_commons: 26607e403b3301ec966e578a308c98c6ac3e9477
+  google_mlkit_text_recognition: 1671b3abf7aee81aa0fc876f0f6a83dac069242e
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
+  MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
+  MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
+  MLKitTextRecognition: 9ff0c843f2723d31d4bdd0c0d17a0a18382ed23e
+  MLKitTextRecognitionCommon: 0d48930fee25cce9d52d0ba217490d4797061aa2
+  MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  nfc_manager: d7da7cb781f7744b94df5fe9dbca904ac4a0939e
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+  WeScan: f50277f7304d146d9ebc4ebdc1b587df84dcdd8b
+  ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
+
+PODFILE CHECKSUM: eacec41410a835485de0c0c9ea32b11e2e82c681
+
+COCOAPODS: 1.15.2
